@@ -1,7 +1,9 @@
 var React = require('react');
-
-
-import {Router, Route, IndexRoute, hashHistory} from 'react-router'
+var ReactRouter = require('react-router')
+var Router = ReactRouter.Router;
+var Route = ReactRouter.Route;
+var hashHistory = ReactRouter.hashHistory;
+var IndexRoute = ReactRouter.IndexRoute;
 
 var Main = require('../components/Main');
 var Home = require('../components/Home');
